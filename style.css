@@ -2,6 +2,9 @@
  padding:0;
  margin:0;
  }
+.menu{
+ display:none;
+}
 header{
 background-color: #231C1A;
 height:80px;
@@ -196,7 +199,38 @@ line-height:2er;
  }
  .news h2{
   font-size:40px;
+
  }
+ .menu{
+  display:block;
+  background-color:transparent;
+  color:white;
+  font-size:35px;
+  position:absolute;
+  top:15px;
+  left:20px;
+  border:none;
+  cursor:pointer;
+  
+ }
+ .shop{
+  flex-direction:column;  
+}
+ .shop img{
+  width:100%;
+ }
+ .info{
+  width:100%;
+  padding:40px 0;
+ }
+ .info h2{
+  font-size:30px;
+ }
+ .product{
+  flex-direction:column;
+  padding:60px 0;
+ }
+}
  
    
 
