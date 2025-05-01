@@ -187,3 +187,16 @@ margin-bottom:30px;
 text-align:center;
 line-height:2er;
 }
+
+＠media screen and (max-width:768px){
+ header ul{
+  display:none;
+  left:50%;
+  transform:translateX(-50%);
+ }
+ .news h2{
+  font-size:40px;
+ }
+ 
+   
+
