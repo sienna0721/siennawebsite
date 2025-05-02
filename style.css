@@ -191,7 +191,7 @@ text-align:center;
 line-height:2er;
 }
 
-＠media screen and (max-width:768px){
+@media screen and (max-width:768px){
  header ul{
   display:none;
  }
